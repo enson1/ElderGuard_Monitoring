@@ -1,0 +1,58 @@
+{
+    "fall_detection": {
+        "enabled": true,
+        "sensitivity": "Medium (Balanced)",
+        "play_sound": true,
+        "min_kpt_confidence": 0.3,
+        "velocity_threshold": 0.4,
+        "confidence_threshold": 0.7,
+        "velocity_boost": 0.4,
+        "confirm_frames": 3,
+        "clear_frames": 5
+    },
+    "motion_detection": {
+        "enabled": true
+    },
+    "inactivity_detection": {
+        "enabled": true,
+        "threshold": "30 minutes",
+        "play_sound": true
+    },
+    "notifications": {
+        "in_app": true,
+        "email": true,
+        "sms": false,
+        "phone_call": false
+    },
+    "emergency_contacts": {
+        "primary": {
+            "name": "Yash",
+            "relationship": "Family Member",
+            "phone": "8585509191",
+            "email": "yash.yadav@gmail.com"
+        },
+        "secondary": {
+            "name": "Jane Smith",
+            "relationship": "Caretaker",
+            "phone": "(987) 654-3210",
+            "email": "jane.smith@gmail.com"
+        }
+    },
+    "alert_schedule": {
+        "mode": "247",
+        "custom_start": "09:00",
+        "custom_end": "17:00"
+    },
+    "email_alerting": {
+        "enabled": true,
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "smtp_user": "yash.yadav@gmail.com",
+        "smtp_password": "zwpklaasbdzejflt",
+        "sender_email": "yash.yadav@gmail.com",
+        "recipient_emails": [
+            "yash.yadav@gmail.com",
+            "yash.yadav@gmail.com"
+        ]
+    }
+}
